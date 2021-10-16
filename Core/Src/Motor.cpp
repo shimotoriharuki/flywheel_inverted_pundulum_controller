@@ -36,11 +36,11 @@ void Motor::motorCtrl()
 	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, counter_period);
 }
 
-void Motor::setRatio(double _ratio, double right_ratio)
+void Motor::setRatio(double ratio)
 {
-	if(_ratio > 1) _ratio = 1;
-	else if(_ratio < -1) _ratio = -1;
+	if(ratio > 1) ratio = 1;
+	else if(ratio < -1) ratio = -1;
 
-	temp_counter_period_ = (int)((double)MAX_COUNTER_PERIOD * _ratio);
+	temp_counter_period_ = (int)((double)MAX_COUNTER_PERIOD * ratio);
 
 }

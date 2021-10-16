@@ -10,20 +10,19 @@
 
 #include "stm32f4xx_hal.h"
 
-#define MAX_COUNTER_PERIOD 1800
+#define MAX_COUNTER_PERIOD 1799
 
 class Motor{
 private:
 
-	//void speedCtrl();
 	int16_t temp_counter_period_;
 
 public:
 
 	Motor();
 	void init();
-	void motorCtrl(); //call by timer interrupt in
-	void setRatio(double, double);
+	void motorCtrl(); //call by timer interruptin
+	void setRatio(double);
 
 };
 

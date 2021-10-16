@@ -11,7 +11,11 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-void cpploop(void);
+
+void cppInit(void);
+void cppLoop(void);
+void cppFlip1ms(void);
+
 #ifdef __cplusplus
 };
 #endif
