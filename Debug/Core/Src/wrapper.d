@@ -31,7 +31,8 @@ Core/Src/wrapper.o: ../Core/Src/wrapper.cpp ../Core/Inc/wrapper.hpp \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ ../Core/Inc/Encoder.hpp
 
 ../Core/Inc/wrapper.hpp:
 
@@ -100,3 +101,5 @@ Core/Src/wrapper.o: ../Core/Src/wrapper.cpp ../Core/Inc/wrapper.hpp \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
+
+../Core/Inc/Encoder.hpp:
