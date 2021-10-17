@@ -15,15 +15,18 @@ class Encoder{
 private:
 	double cnt_;
 	double total_cnt_;
+	double angle_;
 
 public:
 	Encoder();
 	void init();
 	void updateCnt();
-	void getCnt(double &);
+	double getCnt();
 	void clearCnt();
 	double getTotalCnt();
 	void clearTotalCnt();
+	double getAngle();
+	void clearAngle();
 };
 
 #endif /* INC_ENCODER_HPP_ */

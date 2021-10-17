@@ -1,7 +1,9 @@
 Encoder.cpp:19:1:Encoder::Encoder()	16	static
-Encoder.cpp:21:6:void Encoder::init()	16	static
-Encoder.cpp:27:6:void Encoder::updateCnt()	24	static
-Encoder.cpp:33:6:void Encoder::getCnt(double&)	16	static
-Encoder.cpp:38:6:void Encoder::clearCnt()	16	static
-Encoder.cpp:44:8:double Encoder::getTotalCnt()	16	static
-Encoder.cpp:49:6:void Encoder::clearTotalCnt()	16	static
+Encoder.cpp:21:6:void Encoder::init()	24	static
+Encoder.cpp:30:6:void Encoder::updateCnt()	24	static
+Encoder.cpp:37:8:double Encoder::getCnt()	16	static
+Encoder.cpp:42:6:void Encoder::clearCnt()	16	static
+Encoder.cpp:48:8:double Encoder::getTotalCnt()	16	static
+Encoder.cpp:53:6:void Encoder::clearTotalCnt()	16	static
+Encoder.cpp:58:8:double Encoder::getAngle()	16	static
+Encoder.cpp:63:6:void Encoder::clearAngle()	16	static

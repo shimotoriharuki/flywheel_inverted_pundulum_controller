@@ -11,7 +11,7 @@
 Motor motor;
 Encoder encoder;
 
-uint16_t total_cnt;
+double total_cnt;
 
 void cppInit(void){
 	motor.init();
@@ -30,7 +30,7 @@ void cppFlip1ms(void){
 	motor.motorCtrl();
 
 	encoder.updateCnt();
-	total_cnt = encoder.getTotalCnt();
+	total_cnt = encoder.getAngle();
 
 	encoder.clearCnt();
 
